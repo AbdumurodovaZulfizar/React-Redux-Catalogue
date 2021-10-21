@@ -39,12 +39,15 @@
   background-color: var(--pink);
   color: var(--white);
   font-size: 20px;
-  transition: all 3s ease-out;
+  border: 1px solid var(--white);
 }
 
 .sign_up__page:hover {
   color: var(--white);
-  box-shadow: 4px 4px rgba(255, 255, 255, 0.6);
+}
+
+.sign_up__page:focus{
+  outline: 0;
 }
 
 .sign_up {
