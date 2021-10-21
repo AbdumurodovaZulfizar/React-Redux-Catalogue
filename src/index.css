@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.font {
+  font-family: var(--font-family-default);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.vawe {
+  background: url(./assets/images/landing.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.landing-page {
+  margin-top: 17%;
+  color: var(--white);
+}
+
+.landing-page h1 {
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 3px 3px var(--pink);
+}
+
+.logo {
+  font-family: var(--font-family-logo);
+}
+
+.home {
+  background-image: url(./assets/images/food2.jpg);
+  z-index: -1;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign_up__page {
+  background-color: var(--pink);
+  color: var(--white);
+  font-size: 20px;
+  transition: all 3s ease-out;
+}
+
+.sign_up__page:hover {
+  color: var(--white);
+  box-shadow: 4px 4px rgba(255, 255, 255, 0.6);
+}
+
+.sign_up {
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.sign_up:hover{
+  color: var(--white);
+}
+
+.sign_in {
+  color: var(--pink);
+  background-color: var(--white);
+}
+
+.sign_in:hover {
+  color: var(--white);
+  background-color: var(--pink);
+}
+
+
+body {
+  margin: 0;
+  overflow-x: hidden;
 }
