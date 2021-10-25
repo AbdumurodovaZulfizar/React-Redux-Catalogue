@@ -17,6 +17,7 @@ export default function Header() {
           
         </ul>
         <form class="d-flex">
+        <Link to="/category" className="text-decoration-none"><span class="mx-2 font nav-link text-white" type="submit">Food Categories</span></Link>
           <Link to="/sign_in"><button class="btn mx-2 sign_up rounded-pill font" type="submit">Sign Up</button></Link>
           <Link to="/sign_up"><button class="btn sign_in rounded-pill font" type="submit">Log In</button></Link>
         </form>
