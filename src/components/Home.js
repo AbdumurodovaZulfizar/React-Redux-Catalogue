@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import FilterMethod from '../containers/FilterMethod';
+import useCategories from '../containers/filterMethod';
+import useFoods from '../containers/foods';
 
 const Home = () => {
-  // console.log(FilterMethod());
+  console.log(useFoods('Beef'));
+  console.log(useCategories());
 
   return (
     <div className="home">

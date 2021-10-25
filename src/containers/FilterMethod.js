@@ -1,89 +1,30 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+import { useEffect, useState } from "react";
 
-export default function FilterMethod({ filter, handleFilter }) {
-  const [error, setError] = useState(false);
-  const [category, setCategory] = useState([]);
+const useCategories = (category) => {
+  const [errorCategory, setErrorCategory] = useState(false);
+  const [loadingCategory, setLoadingCategory] = useState(true);
+  const [categories, setCategories] = useState([]);
 
-    useEffect(() => {
-    setError(false);
+  useEffect(() => {
+    setLoadingCategory(true);
+    setErrorCategory(false);
 
     fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
       .then(resp => resp.json())
       .then((result) => {
-        setCategory(result.categories);
+        setLoadingCategory(false);
+        setCategories(result.categories);
+        console.log(result.categories);
       }
       ).catch((err) => {
         if (err) {
-          setError(true);
+          setErrorCategory(true);
         }
       })
     }
-  , [])
-  
-  return (
-    <div className="category-wrapper my-5 py-5">
-    <select
-      name="category"
-      value={filter}
-      onChange={(e) => handleFilter(e.target.value)}
-      className="col-4 py-1"
-    >
-      {category.map((item) => (
-        <option value={item} key={item.strCategory}>
-          {item.strCategory}
-        </option>
-      ))}
-    </select>
-    <div>{error && "Error"}</div>
-  </div>
-  )
+  ,[category])
+
+  return {loadingCategory, categories, errorCategory}
 }
 
-FilterMethod.propTypes = {
-  filter: PropTypes.string,
-  handleFilter: PropTypes.func,
-};
-
-FilterMethod.defaultProps = {
-  filter: 'All',
-  handleFilter: null,
-};
-
-
-
-
-// import { useEffect, useState } from "react";
-// import React from "react";
-
-// const filterMethod = () => {
-  // const [error, setError] = useState(false);
-  // const [loading, setLoading] = useState(true);
-  // const [launches, setLaunches] = useState([]);
-
-//   useEffect(() => {
-//     setLoading(true);
-//     setError(false);
-
-//     fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
-//       .then(resp => resp.json())
-//       .then((result) => {
-//         setLoading(false);
-//         setLaunches(result);
-//       }
-//       ).catch((err) => {
-//         if (err) {
-//           setError(true);
-//         }
-//       })
-//     }
-//   , [])
-
-//   return (
-//     <div>
-//       Hello World
-//     </div>
-//   )
-// }
-
-// export default filterMethod;
+export default useCategories;
