@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import FilterMethod from '../containers/filterMethod';
 import Header from './Header';
 import Home from './Home';
+import FilteredPage from './FilteredPage';
 
 const AppRouter = () => {
   return (
@@ -10,7 +10,7 @@ const AppRouter = () => {
     <div>
       <Header />
       <Switch>
-        {/* <Route path="/category" component={FilterMethod} /> */}
+        <Route path="/category" component={FilteredPage} />
         <Route path="/" component={Home} />
       </Switch>
     </div>
