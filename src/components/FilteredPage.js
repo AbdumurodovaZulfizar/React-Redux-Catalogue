@@ -1,36 +1,16 @@
 import React from "react";
-import PropTypes from 'prop-types';
 import useCategories from "../containers/FilterMethod";
+import Foods from "../containers/foods";
+import FoodItem from "../containers/Food";
 
-const FilteredPage = ({ filter, handleFilter }) => {
-  const { categories } = useCategories();
+const FilteredPage = () => {
   return (
-    <div className="category-wrapper pt-5 mt-5">
-    <select
-      name="category"
-      value={filter}
-      onChange={(e) => handleFilter(e.target.value)}
-      className="col-4 py-1"
-    >
-      {categories.map((item) => (
-        <option value={item} key={item}>
-          {item}
-        </option>
-      ))}
-    </select>
-  </div>
+    <div className="pt-5 mt-5">
+      <useCategories />
+      <Foods />
+      <FoodItem />
+    </div>
   )
 }
-
-FilteredPage.propTypes = {
-  filter: PropTypes.string,
-  handleFilter: PropTypes.func,
-};
-
-FilteredPage.defaultProps = {
-  filter: 'All',
-  handleFilter: null,
-};
-
 
 export default FilteredPage;

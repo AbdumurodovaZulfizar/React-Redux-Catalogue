@@ -1,8 +1,8 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import 
-import FoodItem from '../components/FoodItem';
+import allActions from '../actions';
+import FoodItem from './Food';
 
 const Foods = () => {
   const [category, setCategory] = useState('Beef');
@@ -24,7 +24,7 @@ const Foods = () => {
 
   useEffect(() => {
     fetchFoods();
-  }, [category]);
+  },);
 
   return (
     <div>
