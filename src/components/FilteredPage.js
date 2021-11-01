@@ -1,14 +1,17 @@
 import React from "react";
-import useCategories from "../containers/FilterMethod";
+import Categories from "../containers/FilterMethod";
 import Foods from "../containers/foods";
 import FoodItem from "../containers/Food";
 
 const FilteredPage = () => {
   return (
-    <div className="pt-5 mt-5">
-      <useCategories />
-      <Foods />
-      <FoodItem />
+    <div className="">
+        <div className="header-nav"></div>
+        <div className="pt-5 home_2">
+        <Categories />
+        <Foods />
+        <FoodItem />
+        </div>
     </div>
   )
 }

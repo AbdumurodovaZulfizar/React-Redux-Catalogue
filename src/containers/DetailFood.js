@@ -5,7 +5,10 @@ const ThisFood = (props) => {
   const { food } = props.location.state;
   return (
     <div>
+      <div className="header-nav"></div>
+      <div className="home_2 padding-top">
       {food.strMeal}
+        </div>
     </div>
   )
 }

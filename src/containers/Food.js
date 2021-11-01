@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 const FoodItem = ({ food }) => {
   const [expanded, setExpanded] = useState(false);
+  
   const item = { ...food };
   const handleExpandClick = () => {
     setExpanded(!expanded);

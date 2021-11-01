@@ -27,12 +27,21 @@
   font-family: var(--font-family-logo);
 }
 
-.home {
+.home, .home_2 {
   background-image: url(./assets/images/food2.jpg);
   z-index: -1;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.padding-top {
+  padding-top: 300px;
+}
+
+.home_2 {
+  background-attachment: fixed;
+  height: fit-content;
 }
 
 .sign_up__page {
@@ -67,6 +76,13 @@
 .sign_in:hover {
   color: var(--white);
   background-color: var(--pink);
+}
+
+.header-nav {
+  background-color: var(--pink);
+  height: 80px;
+  width: 100%;
+  position: fixed;
 }
 
 
