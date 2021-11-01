@@ -1,6 +1,9 @@
-const CHANGE_FILTER = 'CHANGE_FILTER';
+import categoryActions from './categoryActions';
+import foodActions from './foodActions';
 
-export const changeFilter = (value) => ({
-  type: CHANGE_FILTER,
-  value,
-});
+const allActions = {
+  categoryActions,
+  foodActions,
+};
+
+export default allActions;
