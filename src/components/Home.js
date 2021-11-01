@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useCategories from '../containers/filterMethod';
+import useCategories from '../containers/FilterMethod';
 import useFoods from '../containers/foods';
 
 const Home = () => {
