@@ -17,9 +17,11 @@ const useCategories = (category) => {
       })
   }, [category])
 
-  return {
-    categories
-  }
+  return (
+    <div>
+      Hello World
+    </div>
+  )
 }
 
 export default useCategories;
