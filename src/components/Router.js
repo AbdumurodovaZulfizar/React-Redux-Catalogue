@@ -11,6 +11,7 @@ const AppRouter = () => {
       <Header />
       <Switch>
         <Route path="/category" component={FilteredPage} />
+        <Route path="/DetailPage/:name" component={Home} />
         <Route path="/" component={Home} />
       </Switch>
     </div>
