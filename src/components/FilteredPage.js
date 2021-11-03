@@ -1,7 +1,6 @@
 import React from "react";
 import Categories from "../containers/FilterMethod";
 import Foods from "../containers/foods";
-import FoodItem from "../containers/Food";
 
 const FilteredPage = () => {
   return (
@@ -11,7 +10,6 @@ const FilteredPage = () => {
           <div className="container-fluid row m-0 px-0 p-md-3">
           <Categories />
           <Foods />
-          <FoodItem />
           </div>
         </div>
     </div>
