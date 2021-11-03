@@ -53,6 +53,11 @@
   border: 1px solid var(--pink);
 }
 
+.text {
+  color: var(--pink);
+  font-family: var(--font-family-default);
+}
+
 .home_2 {
   background-attachment: fixed;
   height: fit-content;
