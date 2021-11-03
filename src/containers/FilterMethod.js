@@ -14,10 +14,7 @@ const Categories = () => {
     dispatch(getData());
   });
   return (
-    <div className="intro">
-      <div className="logo" />
-      <h2>Discover the best food & drinks!</h2>
-      <div className="foods" />
+    <div className="">
     </div>
   );
 };

@@ -28,12 +28,15 @@ const Foods = () => {
 
   return (
     <div>
-      <select className="categroes" onChange={(e) => { categoryHandle(e); }}>
+      <div className="col-12 col-md-6 mx-auto mb-4">
+      <select className="form-select" onChange={(e) => { categoryHandle(e); }}>
         {categoryList.map((item) => (
           <option value={item.strCategory} key={item.strCategory}>{item.strCategory}</option>
         ))}
       </select>
-      <div className="card-grid">
+      </div>
+      
+      <div className="row">
         {foodList.map((obj) => (
           // console.log(obj)
           <FoodItem key={obj.idMeal} food={obj} />

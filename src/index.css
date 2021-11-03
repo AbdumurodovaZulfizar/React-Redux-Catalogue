@@ -39,9 +39,24 @@
   padding-top: 300px;
 }
 
+.landing-page-img {
+  width: 100%;
+}
+
+.card_link {
+  color: var(--white);
+  font-family: var(--font-family-default);
+  text-shadow: 2px 1px var(--pink);
+}
+
+.my_card {
+  border: 1px solid var(--pink);
+}
+
 .home_2 {
   background-attachment: fixed;
   height: fit-content;
+  padding-top: 100px;
 }
 
 .sign_up__page {
