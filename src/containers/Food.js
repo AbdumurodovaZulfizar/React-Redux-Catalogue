@@ -17,6 +17,7 @@ const FoodItem = ({ food }) => {
       }}
     >
       <div onClick={handleExpandClick}>
+        <img alt="food" src={item.strMealThumb} />
         {item.strMeal}
       </div>
     </Link>
