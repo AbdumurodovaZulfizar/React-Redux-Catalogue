@@ -105,4 +105,5 @@ ThisFood.propTypes = {
 
 ThisFood.defaultProps = {
   food: {},
+  location: {},
 };

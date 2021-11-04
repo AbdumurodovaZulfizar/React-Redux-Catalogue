@@ -39,4 +39,3 @@ FoodItem.defaultProps = {
 FoodItem.propTypes = {
   food: PropTypes.shape({}),
 };
-

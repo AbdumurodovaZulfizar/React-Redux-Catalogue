@@ -35,10 +35,8 @@ const Foods = () => {
         ))}
       </select>
       </div>
-      
       <div className="row">
         {foodList.map((obj) => (
-          // console.log(obj)
           <FoodItem key={obj.idMeal} food={obj} />
         ))}
       </div>
