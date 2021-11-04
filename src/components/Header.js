@@ -17,9 +17,9 @@ export default function Header() {
           
         </ul>
         <form className="d-flex">
-        <Link to="/category" className="text-decoration-none"><span className="mx-2 font nav-link text-white" type="submit">Food Categories</span></Link>
-          <Link to="/sign_in"><button className="btn mx-2 sign_up rounded-pill font" type="submit">Sign Up</button></Link>
-          <Link to="/sign_up"><button className="btn sign_in rounded-pill font" type="submit">Log In</button></Link>
+        <Link to="/category" className="text-decoration-none collapsed"><span className="mx-2 font nav-link text-white" type="submit" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">Food Categories</span></Link>
+          <Link to="/sign_in" className="collapsed"><button className="btn mx-2 sign_up rounded-pill font" type="submit"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">Sign Up</button></Link>
+          <Link to="/sign_up" className="collapsed"><button className="btn sign_in rounded-pill font" type="submit"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">Log In</button></Link>
         </form>
       </div>
     </div>
