@@ -92,4 +92,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Copyright 2021 Zulfizar Abdumurodova
-- [MIT LICENSE](https://github.com/AbdumurodovaZulfizar/calculator-app/blob/setup_react_m1/LICENSE) for this project.
+- [MIT LICENSE](https://github.com/AbdumurodovaZulfizar/React-Redux-Catalogue/blob/create_app/LICENSE) for this project.
