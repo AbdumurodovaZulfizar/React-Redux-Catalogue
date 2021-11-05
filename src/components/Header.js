@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header>
+    <header data-testid="1">
       <nav className="navbar navbar-expand-md navbar-dark header fixed-top">
       <div className="container-fluid fixed-top">
       <Link to="/" className="nav-link text-white logo px-0"><h1>Delicious</h1></Link>
