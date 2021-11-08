@@ -69,7 +69,7 @@ npm run test
 
 ### Live Version
 
-[Food Catalogue](https://cocky-cray-06edc3.netlify.app/)
+[Food Catalogue](https://food-catalogue.netlify.app/)
 
 ## Authors
 
