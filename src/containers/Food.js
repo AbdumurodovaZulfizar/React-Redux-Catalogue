@@ -13,7 +13,7 @@ const FoodItem = ({ food }) => {
     <div className="col-12 col-md-4 p-0">
       <Link
       to={{
-        pathname: '/DetailPage/{item.idMeal}',
+        pathname: '/DetailPage/' + item.idMeal,
         state: { food: item },
       }}
 

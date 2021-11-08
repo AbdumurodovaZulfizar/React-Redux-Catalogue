@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
 import FilteredPage from './FilteredPage';
-import DetailFood from '../containers/DetailFood'
+import ThisFood from '../containers/DetailFood'
 
 const AppRouter = () => {
   return (
@@ -12,7 +12,7 @@ const AppRouter = () => {
       <Header />
       <Switch>
         <Route path="/category" component={FilteredPage} />
-        <Route path="/DetailPage/:name" component={DetailFood} />
+        <Route path="/DetailPage/:id" component={ThisFood} />
         <Route path="/" component={Home} />
       </Switch>
     </div>
