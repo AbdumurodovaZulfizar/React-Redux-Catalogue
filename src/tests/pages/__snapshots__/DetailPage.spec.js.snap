@@ -6,7 +6,7 @@ exports[`it renders correctly only one food 1`] = `
 >
   <a
     className="m-2 nav-link p-0 my_card"
-    href="/DetailPage/{item.idMeal}"
+    href="/DetailPage/undefined"
     onClick={[Function]}
   >
     <div
@@ -33,7 +33,7 @@ exports[`should render filterpage page correctly 1`] = `
 >
   <a
     className="m-2 nav-link p-0 my_card"
-    href="/DetailPage/{item.idMeal}"
+    href="/DetailPage/undefined"
     onClick={[Function]}
   >
     <div
