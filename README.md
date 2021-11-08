@@ -1,7 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) 
 # Food Catalogue
 
-This application is one of the Microverse requirements based on React library, also used, JS, ES6, Webpack, Node.js, npm, CSS. The calcultor does basic mathematical operations like `+`, `-`, `*` and `/`. Below see live version and try to check it.
+Food Catalogue is the best place to find recipes for your meal, there you can get all information about ingredients and instructions with video tutorial. To build this great app we have used ![Meals DB API](https://www.themealdb.com/api.php) and Redux store as well as the tools lited below.
+
+![Desktop Food](./src/assets/readme_images/foods_desktop.PNG)
+![Desktop FoodDetail](./src/assets/readme_images/deatail_desktop.PNG)
+![Mobile Food](./src/assets/readme_images/foods_mobile.PNG)
+![Mobile FoodDetail](./src/assets/readme_images/detail_mobile.PNG)
 
 ### Built With
 
