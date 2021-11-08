@@ -1,23 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import ReactPlayer from "react-player";
-// import axios from "axios";
+import ReactPlayer from 'react-player';
 
 const ThisFood = (props) => {
   const { food } = props.location.state;
-  console.log(food.idMeal);
-
   const [myFood, setMyFood] = useState([])
   const [error, setError] = useState(false);
 
   useEffect(() => {
     setError(false);
-
     fetch('https://www.themealdb.com/api/json/v1/1/lookup.php?i=' + food.idMeal)
       .then(resp => resp.json())
       .then((result) => {
-        setMyFood(result.meals)
-        console.log(result.meals)
+        setMyFood(result.meals);
       }
       ).catch((err) => {
         if (err) {

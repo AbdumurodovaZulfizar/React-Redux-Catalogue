@@ -5,9 +5,8 @@ import Home from './Home';
 import FilteredPage from './FilteredPage';
 import ThisFood from '../containers/DetailFood'
 
-const AppRouter = () => {
-  return (
-    <Router>
+const AppRouter = () => (
+  <Router>
     <div>
       <Header />
       <Switch>
@@ -17,7 +16,6 @@ const AppRouter = () => {
       </Switch>
     </div>
   </Router>
-  )
-}
+)
 
 export default AppRouter;

@@ -27,7 +27,8 @@
   font-family: var(--font-family-logo);
 }
 
-.home, .home_2 {
+.home,
+.home_2 {
   background-image: url(./assets/images/food2.jpg);
   z-index: -1;
   height: 100vh;
@@ -75,7 +76,7 @@
   color: var(--white);
 }
 
-.sign_up__page:focus{
+.sign_up__page:focus {
   outline: 0;
 }
 
@@ -84,7 +85,7 @@
   border: 2px solid var(--white);
 }
 
-.sign_up:hover{
+.sign_up:hover {
   color: var(--white);
 }
 
@@ -104,7 +105,6 @@
   width: 100%;
   position: fixed;
 }
-
 
 body {
   margin: 0;
