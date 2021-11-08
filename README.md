@@ -4,9 +4,17 @@
 Food Catalogue is the best place to find recipes for your meal, there you can get all information about ingredients and instructions with video tutorial. To build this great app we have used ![Meals DB API](https://www.themealdb.com/api.php) and Redux store as well as the tools lited below.
 
 ![Desktop Food](./src/assets/readme_images/foods_desktop.PNG)
-![Desktop FoodDetail](./src/assets/readme_images/deatail_desktop.PNG)
-![Mobile Food](./src/assets/readme_images/foods_mobile.PNG)
-![Mobile FoodDetail](./src/assets/readme_images/detail_mobile.PNG)
+![Desktop FoodDetail](./src/assets/readme_images/detail_desktop.PNG)
+<table>
+<tr>
+ <td>
+  <img src="./src/assets/readme_images/foods_mobile.PNG" />
+</td>
+<td>
+  <img src="./src/assets/readme_images/detail_mobile.PNG" />
+</td>
+</tr>
+</table>
 
 ### Built With
 
