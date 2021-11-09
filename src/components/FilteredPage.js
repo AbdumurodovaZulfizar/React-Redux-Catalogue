@@ -4,7 +4,7 @@ import Foods from '../containers/foods';
 
 const FilteredPage = () => (
   <div className="">
-    <div className="header-nav"></div>
+    <div className="header-nav" />
     <div className="home_2">
       <div className="container-fluid row m-0 px-0 p-md-3">
         <Categories />
