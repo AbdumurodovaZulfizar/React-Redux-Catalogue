@@ -9,9 +9,11 @@ exports[`it renders correctly only one food 1`] = `
     href="/DetailPage/undefined"
     onClick={[Function]}
   >
-    <div
+    <textbox
       className="m-2"
       onClick={[Function]}
+      onKeyPress={[Function]}
+      type="button"
     >
       <img
         alt="food"
@@ -22,7 +24,7 @@ exports[`it renders correctly only one food 1`] = `
           className="text-center card_link"
         />
       </div>
-    </div>
+    </textbox>
   </a>
 </div>
 `;
@@ -36,9 +38,11 @@ exports[`should render filterpage page correctly 1`] = `
     href="/DetailPage/undefined"
     onClick={[Function]}
   >
-    <div
+    <textbox
       className="m-2"
       onClick={[Function]}
+      onKeyPress={[Function]}
+      type="button"
     >
       <img
         alt="food"
@@ -49,7 +53,7 @@ exports[`should render filterpage page correctly 1`] = `
           className="text-center card_link"
         />
       </div>
-    </div>
+    </textbox>
   </a>
 </div>
 `;
