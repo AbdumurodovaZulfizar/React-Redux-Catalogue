@@ -24,16 +24,16 @@ const Foods = () => {
 
   useEffect(() => {
     fetchFoods();
-  },);
+  });
 
   return (
     <div>
       <div className="col-12 col-md-6 mx-auto mb-4">
-      <select className="form-select" onChange={(e) => { categoryHandle(e); }}>
-        {categoryList.map((item) => (
-          <option value={item.strCategory} key={item.strCategory}>{item.strCategory}</option>
-        ))}
-      </select>
+        <select className="form-select" onChange={(e) => { categoryHandle(e); }}>
+          {categoryList.map((item) => (
+            <option value={item.strCategory} key={item.strCategory}>{item.strCategory}</option>
+          ))}
+        </select>
       </div>
       <div className="row">
         {foodList.map((obj) => (

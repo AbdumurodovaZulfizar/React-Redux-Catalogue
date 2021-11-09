@@ -14,8 +14,7 @@ const Categories = () => {
     dispatch(getData());
   });
   return (
-    <div className="">
-    </div>
+    <div className="" />
   );
 };
 

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
 import FilteredPage from './FilteredPage';
-import ThisFood from '../containers/DetailFood'
+import ThisFood from '../containers/DetailFood';
 
 const AppRouter = () => (
   <Router>
@@ -16,6 +16,6 @@ const AppRouter = () => (
       </Switch>
     </div>
   </Router>
-)
+);
 
 export default AppRouter;
