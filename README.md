@@ -71,6 +71,10 @@ npm run test
 
 [Food Catalogue](https://food-catalogue.netlify.app/)
 
+### Gist Link
+
+[GitHub Gist Link](https://gist.github.com/AbdumurodovaZulfizar/3216dd6b6900a08bc0433034d8abb990)
+
 ## Authors
 
 🏻‍💼 **Zulfizar Abdumurodova**
