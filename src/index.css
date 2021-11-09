@@ -62,7 +62,7 @@
 .home_2 {
   background-attachment: fixed;
   padding-top: 100px;
-  height: fit-content; /* stylelint-disable rule */
+  height: 100%;
 }
 
 .sign_up__page {
