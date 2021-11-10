@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet) 
+# Food Catalogue
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Food Catalogue is the best place to find recipes for your meal, there you can get all information about ingredients and instructions with video tutorial. To build this great app we have used ![Meals DB API](https://www.themealdb.com/api.php) and Redux store as well as the tools lited below.
 
-## Available Scripts
+![Desktop Food](./src/assets/readme_images/foods_desktop.PNG)
+![Desktop FoodDetail](./src/assets/readme_images/detail_desktop.PNG)
+<table>
+<tr>
+ <td>
+  <img src="./src/assets/readme_images/foods_mobile.PNG" />
+</td>
+<td>
+  <img src="./src/assets/readme_images/detail_mobile.PNG" />
+</td>
+</tr>
+</table>
 
-In the project directory, you can run:
+### Built With
 
-### `yarn start`
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![BOOTSTRAP](https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white) 
+![JAVASCRIPT](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E")
+![REACT](https://img.shields.io/badge/react%20-%23E34F26.svg?&style=for-the-badge&logo=react&logoColor=white)
+![REDUX](https://img.shields.io/badge/redux%20-%23E34F26.svg?&style=for-the-badge&logo=redux&logoColor=%23F7DF1E)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### To get local copy up and running follow these simple example steps
 
-### `yarn test`
+1. On the project GitHub page, navigate to the main page of the repository.
+2. Under the repository name, locate and click on a green button named `Code`. 
+3. Copy the project URL as displayed.
+4. If you're running the Windows Operating System, open your command prompt. On Linux, Open your terminal. 
+5. Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be. 
+6. Type git clone, and then paste the URL you copied in Step 3. <br>
+For this project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/AbdumurodovaZulfizar/React-Redux-Catalogue.git
+```
+7. Press Enter. Your local copy will be created.
 
-### `yarn build`
+## Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node
+- Webpack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup
+- run :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+``` 
 
-### `yarn eject`
+to install all required node modules
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- To see local version run:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To run tests: 
+```
+npm run test
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Live Version
 
-## Learn More
+[Food Catalogue](https://food-catalogue.netlify.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Gist Link
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[GitHub Gist Link](https://gist.github.com/AbdumurodovaZulfizar/3216dd6b6900a08bc0433034d8abb990)
 
-### Code Splitting
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🏻‍💼 **Zulfizar Abdumurodova**
 
-### Analyzing the Bundle Size
+- GitHub: [Abdumurodova Zulfizar](https://github.com/AbdumurodovaZulfizar) 
+- Twitter: [Abdumurodova Zulfizar](https://twitter.com/Zulfiza70357085)
+- LinkedIn: [Abdumurodova Zulfizar](https://www.linkedin.com/in/zulfizar-abdumurodova-a61527206/) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues).
 
-### Advanced Configuration
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `yarn build` fails to minify
+- [Microverse](https://www.microverse.org/) for international opportunities.
+- Special thanks to all code reviewers.
+- FrontEndMasters and FreeCodeCamp for their open source
+- You can be software developer only if you want and try for it 😊
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+Copyright 2021 Zulfizar Abdumurodova
+- [MIT LICENSE](https://github.com/AbdumurodovaZulfizar/React-Redux-Catalogue/blob/create_app/LICENSE) for this project.

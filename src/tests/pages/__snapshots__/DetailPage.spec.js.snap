@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders correctly only one food 1`] = `
+<div
+  className="col-12 col-md-4 p-0"
+>
+  <a
+    className="m-2 nav-link p-0 my_card"
+    href="/DetailPage/undefined"
+    onClick={[Function]}
+  >
+    <textbox
+      className="m-2"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      type="button"
+    >
+      <img
+        alt="food"
+        className="landing-page-img"
+      />
+      <div>
+        <h5
+          className="text-center card_link"
+        />
+      </div>
+    </textbox>
+  </a>
+</div>
+`;
+
+exports[`should render filterpage page correctly 1`] = `
+<div
+  className="col-12 col-md-4 p-0"
+>
+  <a
+    className="m-2 nav-link p-0 my_card"
+    href="/DetailPage/undefined"
+    onClick={[Function]}
+  >
+    <textbox
+      className="m-2"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      type="button"
+    >
+      <img
+        alt="food"
+        className="landing-page-img"
+      />
+      <div>
+        <h5
+          className="text-center card_link"
+        />
+      </div>
+    </textbox>
+  </a>
+</div>
+`;

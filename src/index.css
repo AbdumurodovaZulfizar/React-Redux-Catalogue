@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.font {
+  font-family: var(--font-family-default);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.vawe {
+  background: url(./assets/images/landing.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.landing-page {
+  margin-top: 17%;
+  color: var(--white);
+}
+
+.landing-page h1 {
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 3px 3px var(--pink);
+}
+
+.logo {
+  font-family: var(--font-family-logo);
+}
+
+.home,
+.home_2 {
+  background-image: url(./assets/images/food2.jpg);
+  z-index: -1;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padding-top {
+  padding-top: 300px;
+}
+
+.landing-page-img {
+  width: 100%;
+}
+
+.card_link {
+  color: var(--white);
+  font-family: var(--font-family-default);
+  text-shadow: 2px 1px var(--pink);
+}
+
+.my_card {
+  border: 1px solid var(--pink);
+}
+
+.text {
+  color: var(--pink);
+  font-family: var(--font-family-default);
+}
+
+.home_2 {
+  background-attachment: fixed;
+  padding-top: 100px;
+  height: 100%;
+}
+
+.sign_up__page {
+  background-color: var(--pink);
+  color: var(--white);
+  font-size: 20px;
+  border: 1px solid var(--white);
+}
+
+.sign_up__page:hover {
+  color: var(--white);
+}
+
+.sign_up__page:focus {
+  outline: 0;
+}
+
+.sign_up {
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.sign_up:hover {
+  color: var(--white);
+}
+
+.sign_in {
+  color: var(--pink);
+  background-color: var(--white);
+}
+
+.sign_in:hover {
+  color: var(--white);
+  background-color: var(--pink);
+}
+
+.header-nav {
+  background-color: var(--pink);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
 }
